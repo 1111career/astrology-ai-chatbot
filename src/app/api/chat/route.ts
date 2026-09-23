@@ -22,9 +22,9 @@ import { getModel } from "@/lib/ai";
 import { getMCPTools } from "@/lib/mcp";
 import { getSystemPrompt } from "@/lib/prompts";
 
-export const maxDuration = 60;
+export const maxDuration = 300;
 
-const MAX_TOOL_STEPS = Number(process.env.MAX_TOOL_STEPS) || 5;
+const MAX_TOOL_STEPS = Number(process.env.MAX_TOOL_STEPS) || 2;
 
 /** Maximum number of messages allowed per request to prevent abuse. */
 const MAX_MESSAGES = 100;
