@@ -27,7 +27,7 @@ const provider = process.env.LLM_PROVIDER || "gemini";
  *
  * | Provider    | Model                    | Notes                   |
  * |-------------|--------------------------|-------------------------|
- * | gemini      | gemini-2.5-flash         | Free tier available     |
+ * | gemini      | gemini-3.6-flash         | Free tier available     |
  * | anthropic   | claude-haiku-4-5         | Best quality            |
  * | openai      | gpt-5-mini               | Most popular            |
  */
