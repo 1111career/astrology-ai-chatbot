@@ -39,6 +39,6 @@ export function getModel() {
       return openai("gpt-5-mini");
     case "gemini":
     default:
-      return google("gemini-2.5-flash");
+      return google("gemini-3.6-flash");
   }
 }
